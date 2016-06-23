@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP2007_S2016_MidTerm_200306382.TodoDetails" %>
-<!-- 
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <!-- 
     Filename = TodoDetails.aspx
     Author's name = Dilpreet Singh
     website = http://comp2007-s2016-midterm-200306382.azurewebsites.net/
     file description =  file contain all the code for making a todo list
- -->
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+     -->
 
     <div class="container">
         <div class="row">
