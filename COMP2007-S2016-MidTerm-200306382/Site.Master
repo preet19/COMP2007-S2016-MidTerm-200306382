@@ -1,5 +1,11 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP2007_S2016_MidTerm_200306382.Site" %>
 
+<!-- 
+    Filename = site.master
+    Author's name = Dilpreet Singh
+    website = http://comp2007-s2016-midterm-200306382.azurewebsites.net/
+    file description = master file contain all html , css code 
+ -->
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 <!DOCTYPE html>
 <html lang="en">
