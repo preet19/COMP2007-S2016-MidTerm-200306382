@@ -4,6 +4,7 @@
     <!-- 
     Filename = TodoDetails.aspx
     Author's name = Dilpreet Singh
+    Student # 200306382
     website = http://comp2007-s2016-midterm-200306382.azurewebsites.net/
     file description =  file contain all the code for making a todo list
      -->
@@ -25,7 +26,6 @@
                 </div>
 
                 <div class="form-group">
-
                     <asp:CheckBox Text=" Completed" runat="server" ID="CheckBox" placeholder="CheckBox" />
                 </div>
 

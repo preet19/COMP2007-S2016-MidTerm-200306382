@@ -48,7 +48,8 @@ namespace COMP2007_S2016_MidTerm_200306382
                 if (updatedTodo != null)
                 {
                     TodoNameTextBox.Text = updatedTodo.TodoName;
-                    TodoNameTextBox.Text = updatedTodo.TodoNotes;
+                    NotesTextBox.Text = updatedTodo.TodoNotes;
+                    CheckBox.Checked = Convert.ToBoolean( updatedTodo.Completed);
                     
                 }
             }
@@ -103,7 +104,7 @@ namespace COMP2007_S2016_MidTerm_200306382
                 // add form data to the new todo record
                 newTodo.TodoName = TodoNameTextBox.Text;
                 newTodo.TodoNotes = NotesTextBox.Text;
-                
+                newTodo.Completed = CheckBox.Checked;
 
                 // use LINQ to ADO.NET to add / insert new todo into the database
 

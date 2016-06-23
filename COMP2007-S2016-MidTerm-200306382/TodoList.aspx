@@ -4,6 +4,7 @@
     <!-- 
     Filename = TodoList.aspx
     Author's name = Dilpreet Singh
+    Student # 200306382
     website = http://comp2007-s2016-midterm-200306382.azurewebsites.net/
     file description =  file contain all the code for todo listing
     -->
@@ -35,7 +36,7 @@
                         <asp:BoundField DataField="TodoID" HeaderText="Todo ID" Visible="true" SortExpression="TodoID" />
                         <asp:BoundField DataField="TodoName" HeaderText="Task Name" Visible="true" SortExpression="TodoName" />
                         <asp:BoundField DataField="TodoNotes" HeaderText="Notes" Visible="true" SortExpression="TodoNotes" />
-                        <asp:TemplateField><ItemTemplate><asp:CheckBox HeaderText="Completed" runat="server" Visible="true" SortExpression="Completed" /></ItemTemplate> </asp:TemplateField>
+                        <asp:TemplateField HeaderText="Completed" SortExpression="Completed"><ItemTemplate><asp:CheckBox  runat="server" Visible="true"  /></ItemTemplate> </asp:TemplateField>
                         <asp:HyperLinkField HeaderText="Edit" Text="<i class='fa fa-pencil-square-o fa-lg'></i> Edit" 
                             NavigateUrl="~/TodoDetails.aspx.cs" ControlStyle-CssClass="btn btn-primary btn-sm" runat="server"
                             DataNavigateUrlFields="TodoID" DataNavigateUrlFormatString="TodoDetails.aspx?TodoID={0}" />
